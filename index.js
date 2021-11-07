@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const rescue = require('express-rescue');// trabalhar assincronicidade no Express
 const talkerUtils = require('./fs-utils');
+
 const {
   isValidEmail,
   isValidPassword,
